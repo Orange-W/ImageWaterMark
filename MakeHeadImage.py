@@ -20,7 +20,7 @@ def draw_avatar_frame(width, num, r):
         x = width/2 * (1-np.cos(np.radians(angle))) + r/2
         y = width/2 * (1-np.sin(np.radians(angle))) + r/2
 
-        random_number = random.randint(0, 63)
+        random_number = i
         # 贴图路径
         image_path = "image/image_" + str(random_number)  +  ".png"
 
